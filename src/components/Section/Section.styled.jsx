@@ -10,5 +10,5 @@ export const Wrapper = styled.section`
   margin: auto;
   padding: 30px;
   background-color: #1e2528;
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.75);
 `;

@@ -81,7 +81,7 @@ export const PhonebookForm = () => {
         value={number}
         placeholder="Enter phone number"
         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-        title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+        title="Phone exemple 123-123-1234"
         onChange={handleInputChange}
         required
       />
