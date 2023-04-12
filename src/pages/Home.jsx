@@ -23,7 +23,7 @@ export default function Home() {
       <Section>
         <div style={styles.container}>
           <h1 style={styles.title}>
-            Contact book welcome page
+            Phonebook welcome page
             <span role="img" aria-label="Greeting icon">
               📖
             </span>

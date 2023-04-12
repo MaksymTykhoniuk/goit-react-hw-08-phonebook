@@ -4,9 +4,8 @@ import styled from '@emotion/styled';
 export const StyledNavLink = styled(NavLink)`
   font-size: 28px;
   font-weight: 600;
-
   text-decoration: none;
-  color: #e0a96d;
+  color: #f6ead4;
   margin-right: 10px;
   &.active {
     text-shadow: 0px 0px 5px #e0a96d;

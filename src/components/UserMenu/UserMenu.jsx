@@ -5,6 +5,7 @@ import { useAuth } from 'hooks';
 import {
   UserMenuButton,
   UserMenuText,
+  UserMenuUser,
   UserMenuWrapper,
 } from './UserMenu.styled';
 
@@ -15,7 +16,9 @@ export const UserMenu = () => {
 
   return (
     <UserMenuWrapper>
-      <UserMenuText>Welcome, {user.email}</UserMenuText>
+      <UserMenuText>
+        Welcome, <UserMenuUser>{user.email}</UserMenuUser>
+      </UserMenuText>
       <UserMenuButton type="button" onClick={() => dispatch(logOut())}>
         Logout
       </UserMenuButton>
